@@ -1,29 +1,14 @@
-import React from 'react'
-
-
-
-// import 'react-animation/dist/keyframes.css'
-import BackgroundVideo from '../BackgroundVideo/BackgroundVideo'
-import Footer from '../Navigation/Footer'
-
-//muzli hemsida designinspiration
-
-
-
-
-
-
-
+import React from 'react';
+import BackgroundVideo from '../BackgroundVideo/BackgroundVideo';
+import Footer from '../Navigation/Footer';
 
 const Home = () => {
-
-    return (
-        <React.Fragment>
-            <BackgroundVideo />
-            <Footer />
-        </React.Fragment>
-    );
+	return (
+		<React.Fragment>
+			<BackgroundVideo />
+			<Footer />
+		</React.Fragment>
+	);
 };
-
 
 export default Home;
